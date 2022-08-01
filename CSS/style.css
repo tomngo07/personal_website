@@ -1,65 +1,107 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+  padding: 0%;
+  margin: 0%;
 }
+
+#navbar {
+  background-color: black;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+
 body {
-    height: 200vh;
+  height: 200vh;
 }
 div {
-    /* border: 5px solid orangered; */
-    display: flex;
+  /* border: 5px solid orangered; */
+  display: flex;
 }
 
-div>div {
-    /* border: 5px solid purple; */
-
+div > div {
+  /* border: 5px solid purple; */
 }
 
 nav {
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
-#navbar{
-    background-color: rgb(83, 146, 163);
-    position: fixed;
-    width: 100%;
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 
-
-
-a{
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(206 239 237);
-    font-size: 20px;
+a:hover {
+  font-family: kunstler script;
+  font-weight: bolder;
+  background-image: linear-gradient(
+    120deg,
+    rgb(255, 232, 132),
+    rgb(255, 118, 157),
+    rgb(199, 115, 255),
+    rgb(144, 205, 255)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
-.split{
-    display: flex;
-    flex-direction: column;
-    /* border: 5px solid purple; */
-    padding: 100px;
-    
+a:active {
 }
 
-.split-item{
-    padding: 15px;
+.split {
+  display: flex;
+  flex-direction: column;
+  /* border: 5px solid purple; */
+  padding: 100px;
 }
 
-#logo{
-    max-width: 5rem;
-    display: inline;
+.split-item {
+  padding: 1px;
+  margin: 30px;
 }
 
-#me-pic{
-    max-width: 500px;
-    display: inline;
+#about-para {
+  font-family: Milky Nice;
+  font-size: 20px;
+  color: white;
+  line-height: 2;
 }
 
+#title-about {
+  font-family: Cooper;
+  background-image: linear-gradient(
+    120deg,
+    rgb(255, 232, 132),
+    rgb(255, 118, 157),
+    rgb(199, 115, 255),
+    rgb(144, 205, 255)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  size: 100px;
+  font-size: larger;
+}
 
+#logo {
+  max-width: 5.5rem;
+  position: relative;
+  right: 75px;
+}
 
+#me-pic {
+  max-width: 500px;
+  display: inline;
+}
+
+#about {
+  position: relative;
+  top: 80px;
+  background-color: black;
+}
