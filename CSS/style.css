@@ -105,3 +105,61 @@ a:active {
   top: 80px;
   background-color: black;
 }
+
+#games {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.games-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#title-games {
+  display: flex;
+  margin-top: 100px;
+  font-family: Cooper;
+  background-image: linear-gradient(
+    120deg,
+    rgb(255, 232, 132),
+    rgb(255, 118, 157),
+    rgb(199, 115, 255),
+    rgb(144, 205, 255)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  size: 100px;
+  font-size: larger;
+}
+
+#games img {
+  width: 100%;
+}
+
+footer {
+  background-color: black;
+}
+
+#games-para {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#games-img {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+#games-img > div {
+  width: 25%;
+}
