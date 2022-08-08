@@ -12,7 +12,7 @@
 }
 
 body {
-  height: 200vh;
+  /* height: 200vh; */
   background-color: bisque;
   overflow-x: hidden;
 }
@@ -54,6 +54,9 @@ a {
   flex-direction: column;
   /* border: 5px solid purple; */
   padding: 100px;
+  margin-top: 30px;
+  max-width: 36%;
+
 }
 
 .split-item {
@@ -62,9 +65,7 @@ a {
 }
 
 #about-para {
-  font-family: Bodoni MT;
   font-size: 20px;
-  color: black;
   line-height: 1.5;
 }
 
@@ -87,8 +88,9 @@ a {
 }
 
 #about {
-  position: relative;
-  top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #games {
@@ -96,22 +98,26 @@ a {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 
 .games-section {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-#title-games {
+#games-title {
   font-family: Bodoni MT;
   display: flex;
+  justify-content: center;
   margin-top: 100px;
   size: 100px;
   font-size: larger;
 }
+
+
 
 #games img {
   width: 100%;
@@ -122,9 +128,10 @@ footer {
 }
 
 #games-img {
-  /* width: 100%; */
+  min-width: 20%;
   display: flex;
   justify-content: space-evenly;
+  /* outline: 1px solid red; */
   margin-top: 50px;
 }
 
@@ -133,6 +140,12 @@ footer {
   max-height: 50%;
 }
 
+
+
+.game-img {
+  width="768";
+  height="768";
+}
 .img-container {
   display: flex;
   flex-direction: column;
@@ -158,3 +171,105 @@ footer {
   margin-top: 50px;
   line-height: 1.5;
 }
+
+.flex{
+  max-width: 40VW;
+  /* outline: 1px solid red; */
+}
+
+#soccer{
+  display: flex;
+  flex-direction: column;
+}
+
+#soccer-title{
+  width:100%;
+  font-family: Bodoni MT;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  size: 100px;
+  font-size: larger;
+}
+
+#soccer-img{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 100%;
+}
+
+#cville-pic{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
+
+#arsenal-pic{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 40px;
+  margin-top: 50px;
+}
+
+
+#soccer-para1{
+  width:30%;
+  line-height: 1.5;
+  margin-left: 30px;
+  font-size: 19px;
+}
+
+#soccer-para2{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 50px;
+  width: 30%;
+  line-height: 1.5;
+  font-size: 19px;
+  margin-right: 25px;
+}
+
+.img-box {
+  max-width: 100%;
+  display: flex; 
+}
+
+#fitness{
+  display: flex;
+  flex-direction: column;
+}
+
+#fitness-title{
+  width:100%;
+  font-family: Bodoni MT;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  size: 100px;
+  font-size: larger;
+}
+
+#fitness-img{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.fitness-para{
+  width: 50%;
+  font-size: 19px;
+  margin-left: 20px;
+}
+
+#plank{
+  margin-top: 50px;
+}
+
+
+
+/* .soccer-box {
+  outline: 5px solid red;
+} */
