@@ -268,6 +268,42 @@ footer {
   margin-top: 50px;
 }
 
+footer{
+  background-color: rgb(151, 151, 151);
+  margin-top: 50px;
+}
+
+.title{
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 300px 300px 300px;
+  column-gap: 320px;  
+  font-family: Bodoni MT;
+  font-size: small;
+}
+
+#about-footer{
+  display: grid;
+  grid-template-columns: 300px;
+  margin-left: 50px;
+}
+
+#contact-footer{
+  display: grid;
+  grid-template-columns: 300px;
+}
+
+#links-footer{
+  display: grid;
+  grid-template-columns: 300px;
+  margin-right: 50px;
+}
+
+#links-footer > p{
+  display: grid;
+  margin-top: 30px;
+}
+
 
 
 /* .soccer-box {
